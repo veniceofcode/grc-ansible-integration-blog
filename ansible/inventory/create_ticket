@@ -3,3 +3,7 @@ localhost
 
 [create_ticket:vars]
 ansible_connection=local
+
+- name: Hub
+  label_selectors:
+  - name=local-cluster
